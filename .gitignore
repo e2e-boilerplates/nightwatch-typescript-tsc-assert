@@ -68,3 +68,5 @@ tests_output/
 
 # OS X
 .DS_Store
+
+build/
