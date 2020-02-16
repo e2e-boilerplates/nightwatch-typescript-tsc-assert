@@ -9,4 +9,5 @@ nightwatch end-to-end test automation boilerplate, using TypeScript, TSC and Ass
     git clone git@github.com:e2e-boilerplates/nightwatch-typescript-tsc-assert.git
     cd nightwatch-typescript-tsc-assert
     npm install
+    npm run build
     npm run test
