@@ -1,15 +1,13 @@
 {
   "name": "nightwatch-typescript-tsc-assert",
   "version": "1.0.0",
-  "description": "nightwatch end-to-end test automation boilerplate, using TypeScript, TSC and Assert.",
-  "main": "index.js",
+  "description": "Nightwatch end-to-end test automation boilerplate, using TypeScript, TSC and Assert.",
   "scripts": {
     "pretty": "prettier --no-config './spec/*.ts' --write",
     "lint": "tslint -c tslint.json './spec/*.ts'",
     "build": "npx tsc",
     "clean": "npx rimraf ./build/*",
-    "test": "npx nightwatch",
-    "test-ci": "nightwatch -c nightwatch-ci.conf.js"
+    "test": "npx nightwatch"
   },
   "keywords": [
     "nightwatch",
@@ -17,7 +15,8 @@
     "tsc",
     "boilerplate",
     "example",
-    "e2e"
+    "e2e",
+    "e2e test"
   ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",
