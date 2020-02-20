@@ -31,7 +31,7 @@
     "rimraf": "3.0.2",
     "tslint": "6.0.0",
     "tslint-plugin-prettier": "2.1.0",
-    "typescript": "3.7.5"
+    "typescript": "3.8.2"
   },
   "husky": {
     "hooks": {
