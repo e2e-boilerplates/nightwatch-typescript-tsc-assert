@@ -1,29 +1,11 @@
 {
-  "name": "nightwatch-typescript-tsc-assert",
-  "version": "1.0.0",
-  "description": "Nightwatch end-to-end test automation boilerplate, using TypeScript, TSC and Assert.",
-  "scripts": {
-    "pretty": "prettier --no-config './spec/*.ts' --write",
-    "lint": "tslint -c tslint.json './spec/*.ts'",
-    "build": "npx tsc",
-    "clean": "npx rimraf ./build/*",
-    "test": "npx nightwatch"
-  },
-  "keywords": [
-    "nightwatch",
-    "typescript",
-    "tsc",
-    "boilerplate",
-    "example",
-    "e2e",
-    "e2e test"
-  ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
-  "license": "MIT",
+  "description": "Nightwatch end-to-end test automation boilerplate, using TypeScript, TSC and Assert.",
   "devDependencies": {
     "@types/nightwatch": "1.1.3",
     "@types/node": "13.7.4",
     "chromedriver": "79.0.3",
+    "eslint-plugin-json": "^2.1.0",
     "husky": "4.2.3",
     "lint-staged": "10.0.7",
     "nightwatch": "1.3.4",
@@ -38,10 +20,35 @@
       "pre-commit": "lint-staged"
     }
   },
+  "keywords": [
+    "assert",
+    "boilerplate",
+    "e2e",
+    "e2e tests",
+    "example",
+    "integration test",
+    "nightwatch",
+    "tsc",
+    "typescript"
+  ],
+  "license": "MIT",
   "lint-staged": {
     "*.{ts,js,css,json,md}": [
       "prettier --write",
       "git add"
     ]
-  }
+  },
+  "name": "nightwatch-typescript-tsc-assert",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/e2e-boilerplates/nightwatch-typescript-tsc-assert.git"
+  },
+  "scripts": {
+    "pretty": "prettier --no-config './spec/*.ts' --write",
+    "lint": "tslint -c tslint.json './spec/*.ts'",
+    "build": "npx tsc",
+    "clean": "npx rimraf ./build/*",
+    "test": "npx nightwatch"
+  },
+  "version": "1.0.0"
 }
