@@ -38,10 +38,10 @@
     "url": "git+https://github.com/e2e-boilerplates/nightwatch-typescript-tsc-assert.git"
   },
   "scripts": {
-    "pretty": "prettier --no-config './spec/*.ts' --write",
-    "lint": "tslint -c tslint.json './spec/*.ts'",
     "build": "npx tsc",
     "clean": "npx rimraf ./build/*",
+    "lint": "tslint -c tslint.json './spec/*.ts'",
+    "pretty": "prettier --no-config './spec/*.ts' --write",
     "test": "npx nightwatch"
   },
   "version": "1.0.0"
