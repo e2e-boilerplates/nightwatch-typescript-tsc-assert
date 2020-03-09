@@ -1,13 +1,13 @@
-# nightwatch (TypeScript, TSC and Assert)
+[![GitHub Actions status | e2e-boilerplate/nightwatch-typescript-tsc-assert](https://github.com/e2e-boilerplate/nightwatch-typescript-tsc-assert/workflows/nightwatch-typescript-tsc-assert/badge.svg)](https://github.com/e2e-boilerplate/nightwatch-typescript-tsc-assert/actions?workflow=nightwatch-typescript-tsc-assert)
 
-[![GitHub Actions status | e2e-boilerplates/nightwatch-typescript-tsc-assert](https://github.com/e2e-boilerplates/nightwatch-typescript-tsc-assert/workflows/nightwatch-typescript-tsc-assert/badge.svg)](https://github.com/e2e-boilerplates/nightwatch-typescript-tsc-assert/actions?workflow=nightwatch-typescript-tsc-assert)
+# Nightwatch Boilerplate
 
-nightwatch end-to-end test automation boilerplate, using TypeScript, TSC and Assert.
+Nightwatch end-to-end test automation boilerplate, using TypeScript, Tsc and Assert.
 
 ## Getting Started
 
-    git clone git@github.com:e2e-boilerplates/nightwatch-typescript-tsc-assert.git
-    cd nightwatch-typescript-tsc-assert
-    npm install
-    npm run build
-    npm run test
+git clone git@github.com:e2e-boilerplate/nightwatch-typescript-tsc-assert.git
+cd nightwatch-typescript-tsc-assert
+npm install
+npm run build
+npm run test
