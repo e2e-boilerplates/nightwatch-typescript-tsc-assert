@@ -2,7 +2,7 @@ import { NightwatchBrowser } from "nightwatch";
 
 module.exports = {
   before: (browser: NightwatchBrowser) => {
-    browser.url("https://e2e-boilerplates.github.io/sandbox/");
+    browser.url("https://e2e-boilerplate.github.io/sandbox/");
   },
 
   after: (browser: NightwatchBrowser) => {
