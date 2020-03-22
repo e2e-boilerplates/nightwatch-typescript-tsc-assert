@@ -9,7 +9,7 @@ module.exports = {
     browser.end();
   },
 
-  "should be on Sandbox": function(browser: NightwatchBrowser) {
+  "should be on Sandbox": (browser: NightwatchBrowser) => {
     browser.assert.title("Sandbox");
     browser.assert.containsText("h1", "Sandbox");
   }
