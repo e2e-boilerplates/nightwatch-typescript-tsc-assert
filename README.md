@@ -11,3 +11,7 @@ Nightwatch end-to-end test automation boilerplate, Using TypeScript, Tsc and Ass
 2. cd nightwatch-typescript-tsc-assert
 
 3. npm install
+
+4. npm run build
+
+5. npm run test
