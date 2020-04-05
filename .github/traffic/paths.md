@@ -1,0 +1,11 @@
+| referrer                                                                   | count | uniques |
+| :------------------------------------------------------------------------- | :---- | :------ |
+| /e2e-boilerplate/nightwatch-typescript-tsc-assert/actions                  | 6     | 2       |
+| /e2e-boilerplate/nightwatch-typescript-tsc-assert                          | 3     | 1       |
+| /e2e-boilerplate/nightwatch-typescript-tsc-assert/actions/runs/61899641    | 2     | 2       |
+| /e2e-boilerplate/nightwatch-typescript-tsc-assert/runs/529286688           | 2     | 2       |
+| /e2e-boilerplate/nightwatch-typescript-tsc-assert/actions/runs/61150992    | 2     | 1       |
+| /e2e-boilerplate/nightwatch-typescript-tsc-assert/blob/master/package.json | 2     | 1       |
+| /e2e-boilerplate/nightwatch-typescript-tsc-assert/runs/526458536           | 2     | 1       |
+| /e2e-boilerplate/nightwatch-typescript-tsc-assert/actions/runs/61800441    | 1     | 1       |
+| /e2e-boilerplate/nightwatch-typescript-tsc-assert/runs/528963338           | 1     | 1       |
