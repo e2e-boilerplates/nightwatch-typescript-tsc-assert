@@ -9,7 +9,7 @@
     "rimraf": "3.0.2",
     "typescript": "3.8.3"
   },
-  "description": "Nightwatch end-to-end test automation boilerplate. Using TypeScript, Tsc and Assert.",
+  "description": "Nightwatch end-to-end test automation boilerplate. Using TypeScript, tsc and Assert.",
   "devDependencies": {
     "@types/nightwatch": "1.1.3",
     "@types/node": "13.13.5",
