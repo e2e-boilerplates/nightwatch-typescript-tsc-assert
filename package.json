@@ -4,7 +4,7 @@
     "url": "https://github.com/e2e-boilerplate/nightwatch-typescript-tsc-assert/issues"
   },
   "dependencies": {
-    "chromedriver": "85.0.0",
+    "chromedriver": "85.0.1",
     "nightwatch": "1.4.1",
     "rimraf": "3.0.2",
     "typescript": "4.0.2"
